@@ -125,7 +125,7 @@ const showInfo = () => {
     let y = -0.3;
     const id = setInterval(() => {
       y += 0.05;
-      if (y >= 10) {
+      if (y >= 5) {
         clearInterval(id);
         onDone();
       }
